@@ -90,24 +90,6 @@ python -u main_informer.py --model informer --data HPC --seq_len 94 --pred_len 2
 python -u main_informer.py --model informer --data HPC --seq_len 94 --pred_len 24 --lr 0.001
 ```
 
-## 6. Results
-
-The results of the model (such as training/validation loss, accuracy, and predictions) will be logged during training. Checkpoints or final model weights will be saved at the end of training.
-
-You can evaluate the model performance or visualize the predictions using the following command:
-
-```bash
-python -u main_informer.py --model informer --data HPC --seq_len 94 --pred_len 24 --evaluate
-```
-
-## 7. Visualization
-
-To visualize the forecast results, you can generate plots of the predictions:
-
-```bash
-python -u main_informer.py --model informer --data HPC --seq_len 94 --pred_len 24 --plot
-```
-
 ## 8. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
